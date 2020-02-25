@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<decorators defaultdir="/ecps/console/decorators">
+    <excludes>
+        <!-- 用来定义不需要被装饰的页面 -->
+        <pattern>*/top10.jsp</pattern>
+    </excludes> 
+    <decorator name="default" page="default.jsp">
+        <!-- 用来定义需要装饰的页面 -->
+        <pattern>/*</pattern>
+    </decorator>
+</decorators>
